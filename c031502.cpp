@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "glibw32.h"
+#include "glibw32.h" // External reference http://www.asahi-net.or.jp/~uc3k-ymd/Glib32/glibw32.html
 
 const int NUMBER = 360;
 const double PI = 3.1415926535897932384626433832796;
