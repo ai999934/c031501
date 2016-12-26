@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "glibw32.h"
+#include "glibw32.h" // External reference http://www.asahi-net.or.jp/~uc3k-ymd/Glib32/glibw32.html
 
 const int NUMBER = 360;
 const double PI = 3.141593;
@@ -26,7 +26,7 @@ main()
        {
            p = j * (PI / (NUMBER / 2));
            
-           x = R * cos(t) + r * cos(p) * cos(t); //Wikipedia
+           x = R * cos(t) + r * cos(p) * cos(t); //External reference Wikipedia
            y = R * sin(t) + r * cos(p) * sin(t);
            z = r * sin(p);
            
